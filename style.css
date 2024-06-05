@@ -334,7 +334,7 @@ margin-left: 600px;
         width: 100%;
         overflow: hidden;
     }
-    /* #hamb{
+     #hamb{
         display: block;
         margin-left: -3400px;
         
@@ -356,10 +356,10 @@ margin-left: 600px;
    
     nav .sel1, .sel2, .sel3{
         display: none;
-    } */
-    nav{
+    } 
+    /* nav{
         display: none;
-    }
+    } */
     .bb{
         display: none;
     }
