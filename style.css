@@ -3,13 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* ########## Custom ############## */
 body{
     max-width: 100vw;
     max-height: 100vh;
     padding: 5px;
     /* background-color: beige; */
 }
-
+/* ############# Nav ################### */
 nav{
     display: flex;
     align-items: center;
@@ -19,11 +20,14 @@ nav{
     left: 0;
     margin: auto; */
 }
-h1{
+#h1{
     color: green;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.hamb{
+#h12{
+    display: none;
+}
+#hamb{
     display: none;
 }
 select{
@@ -100,6 +104,15 @@ select{
     display: flex;
     height: 100vh;
 }
+/* ############# Youtube video ################# */
+
+.iframe{
+    display: none;
+}
+
+/* ########### Side container ############# */
+
+
 .div{
     border: 1px solid;
     width: 220px;
@@ -131,6 +144,9 @@ select{
     border-radius: 12px;
     padding: 20px;
 }
+/* ########### Long search box ########### */
+
+
 .container2{
     display: flex;
     border: 1px solid black;
@@ -145,6 +161,17 @@ select{
     margin-top: -80px;
     margin-right: 80px;
 }
+/* ############ Mobile section part below################ */
+
+section{
+    display: none;
+}
+
+#inp{
+    display: none;
+}
+/* ############ First container ############ */
+
 
 .dee{
     width: 90%;
@@ -155,6 +182,7 @@ select{
     margin-top: 100px;
     padding-top: 20px;
 }
+/* ######## Second container ############ */
 .wee{
     width: 65%;
     height: 200px;
@@ -165,6 +193,14 @@ select{
     opacity: 0.8;
     margin-top: 100px;
     padding-top: 20px;
+}
+/* ######### Main best matches ################## */
+.clearDesktop{
+    display: none;
+}
+
+main{
+    margin-top: 30px;
 }
 h4{
     margin-left: 30px;
@@ -186,9 +222,29 @@ button{
     margin-left: 350px;
     font-size: 25px;
 }
+/* ########### hr line ################ */
+
+
 .pas, .pss{
     margin-top: 20px;
     margin-left: 70px;
+    margin-bottom: 20px;
+}
+/* ############# Frontend container ################## */
+.flw{
+    display: none;
+}
+.mrky{
+    display: none;
+}
+.mbl{
+    display: none;
+}
+.pro{
+    display: none;
+}
+.tos{
+    display: none;
 }
 .ram{
     margin-left: 80px;
@@ -268,4 +324,205 @@ footer.footsy ul li{
 }
 .dft3{
 margin-left: 600px;
+}
+
+
+/* ############## Mobile ############# */
+
+@media screen and (max-width: 550px) {
+    body{
+        width: 100%;
+        overflow: hidden;
+    }
+    /* #hamb{
+        display: block;
+        margin-left: -3400px;
+        
+    }
+    #inp{
+        display: block;
+        
+       
+    }
+    #h1{
+        display: none;
+    }
+    #h12{
+        display: block;
+        color: green;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+   
+    nav .sel1, .sel2, .sel3{
+        display: none;
+    } */
+    nav{
+        display: none;
+    }
+    .bb{
+        display: none;
+    }
+    .container{
+        display: none;
+    }
+    .sheikh{
+        display: none;
+    }
+    .cont, .container2, .div2{
+        display: none;
+    }
+    section{
+        display: block;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    .jj{
+        margin-top: 250px;
+        margin-left: -70px;
+        overflow: hidden;
+    }
+    .dee{
+        display: none;
+    }
+    main{
+        margin-top: 0;
+        margin-left: -70px;
+        overflow: hidden;
+    }
+    .clearLine{
+        display: none;
+    }
+    .clearDesktop{
+        display: block;
+        margin-top: -15px;
+        overflow: hidden;
+    }
+    .pas{
+        opacity: 0.5;
+    }
+    .pss{
+        display: none;
+    }
+    .iframe{
+        display: block;
+        position: relative;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+        margin-top: 20px;
+        border-radius: 20px;
+        margin-bottom: 0;
+    }
+    .ram{
+        margin-left: 70px;
+        overflow: hidden;
+    }
+    .fff{
+        display: none;
+    }
+    button{
+        overflow: hidden;
+        margin: 0;
+    }
+    .conn{
+        width: 100%;
+        margin-left: -30px;
+        overflow: hidden;
+    }
+    .tolu{
+        margin-left: -70px;
+        overflow: hidden;
+    }
+    .qqq{
+        display: none;
+    }
+    .wani{
+        margin-left: -70px;
+    }
+    .drr{
+        margin-left: -70px;
+    }
+    .ngn{
+        display: none;
+    }
+    .pro{
+        margin-left: 0;
+        display: block;
+    }
+    .proo{
+        display: none;
+    }
+    .tosy{
+        display: none;
+    }
+    .tos{
+        display: block;
+        overflow: hidden;
+    }
+    footer.footsy{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        margin-left: 0;
+        border-radius: 8px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        overflow: hidden;
+        
+    }
+    .dft{
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 5px;
+        margin-top: 0;
+    }
+    footer.footsy ul li{
+        color: white;
+        line-height: 2;
+    }
+    .flw{
+        display: block;
+        margin-top: 50px;
+        margin-left: 0;
+        text-transform: uppercase;
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .flww{
+        display: none;
+    }
+    .dft2{
+        display: block;
+        margin-top: 10px;
+    }
+    .mobile{
+        display: none;
+    }
+    .mbl{
+        display: block;
+        margin-top: 50px;
+        margin-left: 0;
+        text-transform: uppercase;
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .dft3{
+        margin-left: 0;
+        
+    }
+    .mrk{
+        display: none;
+    }
+    .mrky{
+        display: block;
+        color: white;
+        margin-left: 20px;
+
+    }
+    .first{
+        margin-bottom: 50px;
+    }
+   
 }

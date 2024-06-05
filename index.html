@@ -8,8 +8,8 @@
 </head>
 <body>
     <nav>
-        <h1>upwork</h1>
-        <select >
+        <h1 id="h1">upwork</h1>
+        <select class="sel1">
             <option >Find work</option>
             <option value="">Find work</option>
             <option value="">Saved jobs</option>
@@ -34,6 +34,8 @@
             <option value="">Withradwal earnings</option>
         </select>
         <p><a href="ahmadmut24@gmail.com" class="bb">Messages</a></p>
+
+        <img src="./image/search-interface-symbol.png" id="inp" style="width: 20px;height: 20px;align-self: center;margin-left: 5px;">
         <div class="container">
             <img src="./image/search-interface-symbol.png" style="width: 20px;height: 20px;align-self: center;margin-left: 5px;">
             <input type="text" placeholder="search">
@@ -42,16 +44,43 @@
             </select>
         </div>
        
-
+        <div class="sheikh">
        <img id="interactions" src="./image/question.png" alt="" style="width: 20px;">
                 <img id="interactions" src="./image/menu.png" alt="" style="width: 20px;">
                 <img id="interactions" src="./image/bell.png" alt="" style="width: 20px;">
                 <img id="interactions" src="./image/paper-plane.png" alt="" style="width: 20px;">
                 <img id="interactions" src="./flower.jpeg" style="width: 20px;border-radius: 100%;">
-               <p class="hamb">&#9776</p>
+               </div>
+               <p id="hamb">&#9776</p>
     </nav>
+
+    <section>
+        <div style="margin-bottom: 10px;">
+            <p style="display: inline-block;">My proposals</p>
+            <p style="display: inline-block;float: right;">></p>
+        </div>
+        <hr style="margin-bottom: 10px;">
+        <div style="margin-bottom: 10px;">
+            <p style="display: inline-block;">My Profile</p>
+            <p style="display: inline-block;float: right;">></p>
+        </div>
+        <hr style="margin-bottom: 10px;">
+        <div style="margin-bottom: 10px;">
+            <p style="display: inline-block;">My Project Dashboard</p>
+            <p style="display: inline-block;float: right;">></p>
+        </div>
+        <hr style="margin-bottom: 10px;">
+        <div style="margin-bottom: 10px;">
+            <p style="display: inline-block;">Get an Upwork skill Certification</p>
+            <p style="display: inline-block;float: right;">></p>
+        </div>
+        <hr>
+    </section>
     <div class="dee">
         <p class="para">Upwork will charge a VAT fee on any invoices created.If provided, the VAT ID will be shown on your invoices, which you can find under Reports><a href="#">Transaction <br> History.</a></Reports></p>
+    </div>
+    <div class="iframe">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bJzb-RuUcMU?si=leppoNNsavDez-Yn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 
     <div class="cont">
@@ -93,13 +122,16 @@
         <p style="margin-left: 20px;margin-top: 20px;color: green;"><a href="#" style="color: green;">Get Started</a></p>
     </div>
     </div>
+    <div class="jj">
     <p style="margin-top: -220px;margin-left: 70px;font-size: 20px;">Jobs you might like</p>
-    <main style="margin-top: 30px;">
+    </div>
+    <main >
         <span style="margin-right: 20px;margin-left: 70px;">Best Matches</span>
         <span style="margin-right: 20px;">Most Recent</span>
-        <span>Saved jobs</span>
-        <p style="margin-left: 70px;"><strong style="color: green;">___________</strong>  __________________________________________________________________________________________</p>
-        <p class="pas">Browse jobs that match your experience to a client's hiring preferences. Ordered by most relevant.</p>
+        <span>Saved jobs(1)</span>
+        <p class="clearLine" style="margin-left: 70px;"><strong style="color: green;">___________</strong>  __________________________________________________________________________________________</p>
+        <p class="clearDesktop" style="margin-left: 70px;"><strong style="color: green;">__________</strong> ______________________________</p>
+        <p class="pas">Browse jobs that match your experience to a client's hiring <br> preferences. Ordered by most relevant.</p>
         <p class="pss">_____________________________________________________________________________________________________</p>
         <div class="ram">
             <p>Posted 2 hours ago</p>
@@ -107,12 +139,12 @@
             <p>Hourly - intermediate -Est. Time:More than 6 months, 30+hrs/week</p>
             <p class="opp">ABOUT THIS POSITION: We are seeking a talented and motivated Front-End Developer to join our team. You <br>will play a crucial role in the design and development of user interfaces for our web-based applications, <br>collaborating closely with existing team members. The ideal candidate is passionate about front-end... <br><p><a href="#" style="color: green;">more</a></p></p>
         </div>
-        <div>
+        <div class="dev ">
             <button style="margin-left: 70px;">Web Application</button>
-            <button>Front-End Development</button>
-            <button style="width: 200px;">Agile Software Development</button>
+            <button class="fff">Front-End Development</button>
+            <button class="fff" style="width: 200px;">Agile Software Development</button>
             <button style="width: 80px;">React</button>
-            <button style="width: 110px;">AngularJS</button>
+            <button class="fff" style="width: 110px;">AngularJS</button>
             <button style="width: 60px;">Git</button>
             <button style="width: 30px;font-size: larger;">></button>
         </div>
@@ -132,14 +164,16 @@
         <button style="background-color: rgb(210, 208, 208);margin-top: 20px;margin-left: 15px;">Web Development</button>
         <p style="margin-left: 22px;margin-top: 20px;opacity: 0.5;">Proposals: Less than 5</p>
        </div>
+       <div class="tolu">
        <p style="margin-left: 75px;opacity: 0.5;margin-top: 30px;">Posted 9 hours ago</p>
        <p style="margin-left: 75PX;margin-top: 20px;opacity: 0.7;">Convert Figma to HTML/TailwInd CSS</p>
        <p style="margin-left: 75px;margin-top: 10px;font-size: 12px;opacity: 0.6;">Fixed-price - Expert - Est.Budget: $300</p>
-       <div style="margin-top: 20px;">
+       </div>
+       <div style="margin-top: 20px;" class="wani">
        <button style="margin-left: 75px;">Tailwind</button>
-       <button>Angular</button>
+       <button class="qqq">Angular</button>
        <button>HTML</button>
-       <button>CSS</button>
+       <button class="qqq">CSS</button>
     </div>
     <div class="drr" style="margin-top: 30px;display: flex;">
         <img id="interactions" src="./verified.png" style="width: 20px;margin-left: 75px;">
@@ -149,11 +183,13 @@
         <img id="interactions" src="./star.jpeg" alt="" style="width: 20px;">
         <img id="interactions" src="./star.jpeg" alt="" style="width: 20px;">
         <p style="opacity: 0.6;margin-left: 50px;">$30k+ spent</p>
-        <img id="interactions" src="./loc.png" alt="" style="width: 20px;margin-left: 50px;">
-        <p style="opacity: 0.6;">Nigeria</p>
+        <img class="ngn" id="interactions" src="./loc.png" alt="" style="width: 20px;margin-left: 50px;">
+        <p style="opacity: 0.6;" class="ngn">Nigeria</p>
     </div>
-    <p style="margin-left: 75px;margin-top: 20px;opacity: 0.5;">Proposals: 20 to 50</p>
-    <p style="margin-left: 75px;margin-top: 20px;opacity: 0.4;margin-bottom: 40px;">___________________________________________________________________________________________________________________</p>
+    <p style="margin-left: 75px;margin-top: 20px;opacity: 0.5;" class="proo">Proposals: 20 to 50</p>
+    <p  style="margin-top: 20px;opacity: 0.5;" class="pro">Proposals: 20 to 50</p>
+    <p style="margin-left: 75px;margin-top: 20px;opacity: 0.4;margin-bottom: 40px;" class="tosy">___________________________________________________________________________________________________________________</p>
+    <p style="margin-top: 20px;opacity: 0.4;margin-bottom: 40px;" class="tos">_______________________________________________________</p>
     <footer class="footsy">
         <div class="dft">
         <ul>
@@ -179,22 +215,27 @@
             <li>Enterprise Solution</li>
         </ul>
         </div>
+        
+        <p class="flw" style="color: white;margin-right: 10px;">follow us</p>
         <div class="dft2">
-            <p style="color: white;margin-left: 80px;margin-right: 10px;">follow us</p>
-            <img id="interactions" src="./facebook.png" alt="" style="width: 40px;margin-right: 10px;border-radius: 100%;">
+            <p class="flww" style="color: white;margin-left: 80px;margin-right: 10px;">follow us</p>
+            <img id="interactions" src="./facebook.png" alt="" style="width: 50px;margin-right: 10px;border-radius: 100%;">
             <img id="interactions" src="./linkedn.png" alt="" style="width: 30px;margin-right: 10px;border-radius: 100%;">
             <img id="interactions" src="./X.png" alt="" style="width: 40px;margin-right: 10px;border-radius: 100%;">
-            <img id="interactions" src="./you.png" alt="" style="width: 50px;margin-right: 10px;border-radius: 50%;">
+            <img id="interactions" src="./you.png" alt="" style="width: 50px;margin-right: 10px;border-radius: 100%">
             <img id="interactions" src="./instagram.jpeg" style="width: 30px;border-radius: 100%;margin-right: 10px;">
+            <p style="color: white;margin-right: 10px;" class="mbl">Mobile app</p>
             <div class="dft3">
-                <p style="color: white;display: inline-block;margin-right: 10px;">Mobile app</p>
+                <p style="color: white;margin-right: 10px;" class="mobile">Mobile app</p>
                 <img id="interactions" src="./apple.png" alt="" style="width: 50px;margin-right: 10px;border-radius: 20px;">
                 <img id="interactions" src="./android.png" alt="" style="width: 30px;margin-right: 10px;border-radius: 20px;">
             </div>
          
         </div>
-        <p style="color: white;margin-left: 80px;">________________________________________________________________________________________________________________________________________</p>
-        <p style="color: white;margin-top: 20px;text-align: center;font-size: 12px;">&#169 2015-2024 &#174 Upwork Global Inc.</p>
+        
+        <p style="color: white;margin-left: 80px;" class="mrk">________________________________________________________________________________________________________________________________________</p>
+        <p style="color: white;" class="mrky">___________________________________________</p>
+        <p class="first" style="color: white;margin-top: 20px;text-align: center;font-size: 12px;">&#169 2015-2024 &#174 Upwork Global Inc.</p>
 
     </footer>
 </body>
