@@ -41,6 +41,7 @@ select{
     padding-top: 10px;
     padding-bottom: 10px;
     border: none;
+    cursor: pointer;
 }
 :focus{
     outline: #757575;
@@ -56,6 +57,7 @@ select{
     padding-top: 10px;
     padding-bottom: 10px; 
     border: none;
+    cursor: pointer;
 }
 .sel3{
     display: inline-block;
@@ -71,6 +73,8 @@ select{
     margin-left: 80px;
     width: 55px;
 }
+
+
 .sel5, .sel6, .sel7, .sel8{
     display: block;
     width: 100%;
@@ -98,10 +102,11 @@ select{
 
 .container{
     display: flex;
-    border: 1px solid;
+    border: 0.1px solid;
     width: 350px;
     height: 40px;
-    border-radius: 50px;
+    border-radius: 100px;
+    opacity: 0.6;
 }
 .cont{
     display: flex;
